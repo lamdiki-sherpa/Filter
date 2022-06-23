@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainSection h1{
+  text-align: center;
+  
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  display:block;
+  padding: 10px;
+  background-color: coral;
+  border: none;
+  margin-right: 5px;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.menulist{
+  width:90%;
+    margin: 0 auto;
+    max-width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap:1.5rem;
+    grid-row-gap:2rem; */
+}
+
+/* .menulist .card{
+  display: flex;
+} */
+
+
+.articleSection{
+/* display: flex;
+flex-direction: row; */
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-transform: capitalize;
+margin-top: 20px;
+margin-right: 65px;
+}
+.articleSection img{
+  margin-right: 5px;
+  width:100%;
+}
+.articleSection h3{
+  margin-top: -20px;
+}
+ h3::after{
+  content: '.';
+	font-size: 0px;
+	display: block;
+	width:200px;
+	height:3px;
+	background-color:#661266;
+	
+ }
